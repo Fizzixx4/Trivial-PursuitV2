@@ -12,13 +12,17 @@ public class TrivialPursuit {
 		this.pions = pions;
 		this.cases = new Case[NB_CASES];
 		for(int i = 0; i < NB_CASES; i++) {
-			cases[i]= new Case();
+			if(i%2==0) {
+				cases[i]= new CaseQuestion(new FileQuestionProvider("C:\\questions.txt"));//*
+			} else {
+				cases[i]= new CaseRejouer();
+			}
 		}
 	}
 
 	public void start() {
 		int currentPionIndex = rand.nextInt(pions.length);
-		for (int i= 0 ; i < 10; i++) {
+		for (int i= 0 ; i < 15; i++) {
 			Pion pion = pions[currentPionIndex];
 			int newPosition = pion.bouger();
 			System.out.println(String.format("%s bouge case %d", pion.getNom(), newPosition));
