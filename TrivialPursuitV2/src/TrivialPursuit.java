@@ -13,7 +13,7 @@ public class TrivialPursuit {
 		this.cases = new Case[NB_CASES];
 		for(int i = 0; i < NB_CASES; i++) {
 			if(i%2==0) {
-				cases[i]= new CaseQuestion(new FileQuestionProvider("C:\\questions.txt"));//*
+				cases[i]= new CaseQuestion(new FileQuestionProvider("C:\\Users\\gkoch\\eclipse-workspace\\TrivialPursuitV2\\src\\Questions.txt"));//*
 			} else {
 				cases[i]= new CaseRejouer();
 			}

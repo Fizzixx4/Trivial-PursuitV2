@@ -1,13 +1,21 @@
 import java.util.Scanner;
 
 public class Question {
+	
+	String enonce;
+	String reponseCorrecte;
+	
+	public Question(String enonce,String reponseCorrecte) {
+		this.enonce = enonce;
+		this.reponseCorrecte = reponseCorrecte;
+	}
 
 	private final Scanner sc = new Scanner(System.in);
 	
 	public boolean demande() {
-		System.out.println("Question: o/n");
+		System.out.println(this.enonce);
 		String response = sc.nextLine();
-		return "o".equalsIgnoreCase(response);
+		return this.reponseCorrecte.equalsIgnoreCase(response);
 	}
 
 }

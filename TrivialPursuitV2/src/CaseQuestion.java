@@ -10,6 +10,6 @@ public class CaseQuestion implements Case{
 	
 	public boolean action() {
 		boolean isReponseCorrecte = provider.getQuestion().demande();
-		return isReponseCorrecte;
+		return isReponseCorrecte; 
 	}
 }
