@@ -20,7 +20,7 @@ public class FileQuestionProvider {
 			while(scanner.hasNextLine())
 			{
 			  String line = scanner.nextLine();
-			  if(line.startsWith("E:")) {
+			  if(line.startsWith("Q:")) {
 				  line = line.replace(",","\n");
 				  Question question = new Question (line.substring(2,line.length()-2),line.substring(line.length()-1));
 				  questions.add(question);

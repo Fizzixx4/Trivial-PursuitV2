@@ -1,9 +1,9 @@
-E:Quelle est la matière la plus dure que comporte le corps humain?,A.Les os,B.Le cartilage,C.L'émail des dents,D.Les nerfs,C
+Q:Quelle est la matière la plus dure que comporte le corps humain?,A.Les os,B.Le cartilage,C.L'émail des dents,D.Les nerfs,C
 		
-E:Quel métal est liquide à température ambiante?,A.Le fer,B.Le mercure,C.Le cuivre,D.Le plomb,B
+Q:Quel métal est liquide à température ambiante?,A.Le fer,B.Le mercure,C.Le cuivre,D.Le plomb,B
 
-E:Quels atomes composent une molécule d'ozone?,A.Trois atomes d'oxygéne,B.Un atome d'hydrogène et deux atomes d'oxygène,C.Deux atomes d'oxygène et un atome d'hydrogène,D.Un atome d'hydrogène et deux atomes d'azote,A
+Q:Quels atomes composent une molécule d'ozone?,A.Trois atomes d'oxygéne,B.Un atome d'hydrogène et deux atomes d'oxygène,C.Deux atomes d'oxygène et un atome d'hydrogène,D.Un atome d'hydrogène et deux atomes d'azote,A
 
-E:Que vantait le premier spam de l'histoire de l'informatique?,A.Un médicament pour maigrir,B.Un ordinateur,C.Une pizzeria,D.Un site de rencontre,B
+Q:Que vantait le premier spam de l'histoire de l'informatique?,A.Un médicament pour maigrir,B.Un ordinateur,C.Une pizzeria,D.Un site de rencontre,B
 
-E:En informatique que signifie RAM?,A.Random Acces Memory,B.Real Access Memory,C.Real Activity Memory,D.Recovery Activity Memory,A
+Q:En informatique que signifie RAM?,A.Random Acces Memory,B.Real Access Memory,C.Real Activity Memory,D.Recovery Activity Memory,A
