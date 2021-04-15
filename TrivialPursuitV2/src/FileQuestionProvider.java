@@ -16,15 +16,24 @@ public class FileQuestionProvider {
 		{
 			FileInputStream fichierQuestions = new FileInputStream(fichier);   
 			Scanner scanner = new Scanner(fichierQuestions);  
+			int indexQuestion = 0;
 			
 			while(scanner.hasNextLine())
 			{
-			  String line = scanner.nextLine();
-			  if(line.startsWith("Q:")) {
-				  line = line.replace(",","\n");
-				  Question question = new Question (line.substring(2,line.length()-2),line.substring(line.length()-1));
-				  questions.add(question);
-			  }
+				String line = scanner.nextLine();
+				if(line.startsWith("Q:")) {
+					Question question = new Question ();
+					questions.add(question);
+					line = line.replace(",","\n");
+				  	questions.get(indexQuestion).enonce = line.substring(2);
+				}
+				else if(line.startsWith("R:")) {
+					 questions.get(indexQuestion).reponseCorrecte = line.substring(2);
+					 indexQuestion++;
+				}
+				else {
+					continue;
+				}
 			}
 	    }
 		    catch(IOException e)

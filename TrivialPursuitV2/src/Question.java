@@ -5,6 +5,8 @@ public class Question {
 	String enonce;
 	String reponseCorrecte;
 	
+	public Question() {}
+	
 	public Question(String enonce,String reponseCorrecte) {
 		this.enonce = enonce;
 		this.reponseCorrecte = reponseCorrecte;
