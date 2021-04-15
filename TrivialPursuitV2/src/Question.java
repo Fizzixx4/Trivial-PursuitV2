@@ -7,9 +7,8 @@ public class Question {
 	
 	public Question() {}
 	
-	public Question(String enonce,String reponseCorrecte) {
+	public Question(String enonce) {
 		this.enonce = enonce;
-		this.reponseCorrecte = reponseCorrecte;
 	}
 
 	private final Scanner sc = new Scanner(System.in);
@@ -18,6 +17,10 @@ public class Question {
 		System.out.println(this.enonce);
 		String response = sc.nextLine();
 		return this.reponseCorrecte.equalsIgnoreCase(response);
+	}
+	
+	public void addReponse (String reponse) {
+		this.reponseCorrecte = reponse;
 	}
 
 }
