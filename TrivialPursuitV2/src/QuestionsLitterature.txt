@@ -1,0 +1,10 @@
+Q:Comment s'appelle les deux protagonistes dans Des souris et des hommes de John Steinbeck?,A.Bob et Johny,B.Chris et Joe,C.John et Andrew,D.Georges et Lennie
+R:D
+Q:Dans la suite de livre La Passe Miroir de Christelle Dabos combien y a-t-il de tomes?,A.2,B.3,C.4,D.5
+R:C
+Q:Qui a écrit la pièce Horace?,A.Molière,B.Corneille,C.Racine,D.Shakespeare
+R:B
+Q:Dans la saga Harry Potter à  quelle maison appartient Luna Lovegood?,A.Gryfondor,B.Serdaigle,C.Poussoufle,D.Serpentard
+R:B
+Q:Dans La ferme des Animaux de Georges Orwell, qui sont les nouveaux chef de la ferme après la mort du propriétaire?,A.Les vaches,B.Les chiens,C.Les chevaux,D.Les cochons
+R:D

@@ -10,6 +10,10 @@ public class Question {
 	public Question(String enonce) {
 		this.enonce = enonce;
 	}
+	
+	public void addReponse (String reponse) {
+		this.reponseCorrecte = reponse;
+	}
 
 	private final Scanner sc = new Scanner(System.in);
 	
@@ -18,9 +22,4 @@ public class Question {
 		String response = sc.nextLine();
 		return this.reponseCorrecte.equalsIgnoreCase(response);
 	}
-	
-	public void addReponse (String reponse) {
-		this.reponseCorrecte = reponse;
-	}
-
 }
